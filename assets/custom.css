@@ -1,5 +1,5 @@
 .custom-header__content {
-	padding:  3rem 0 1.5rem 0;
+	padding:  2rem 0;
 }
 .header__menu-item {
 	text-decoration: none;
@@ -21,6 +21,7 @@
 .header-secondary-nav {
 	display:  flex;
 	font-size:  90%;
+	margin-bottom: 2rem;
 }
 .header-secondary-nav  li {
 	justify-content: center;
