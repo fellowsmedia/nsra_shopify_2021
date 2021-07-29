@@ -177,13 +177,15 @@
         "type": "text",
         "id": "social_twitter_link",
         "label": "t:settings_schema.social-media.settings.social_twitter_link.label",
-        "info": "t:settings_schema.social-media.settings.social_twitter_link.info"
+        "info": "t:settings_schema.social-media.settings.social_twitter_link.info",
+        "default" : "https://twitter.com/NSRAHQ"
       },
       {
         "type": "text",
         "id": "social_facebook_link",
         "label": "t:settings_schema.social-media.settings.social_facebook_link.label",
-        "info": "t:settings_schema.social-media.settings.social_facebook_link.info"
+        "info": "t:settings_schema.social-media.settings.social_facebook_link.info",
+        "default" : "https://www.facebook.com/NSRAOfficial"
       },
       {
         "type": "text",
@@ -195,7 +197,8 @@
         "type": "text",
         "id": "social_instagram_link",
         "label": "t:settings_schema.social-media.settings.social_instagram_link.label",
-        "info": "t:settings_schema.social-media.settings.social_instagram_link.info"
+        "info": "t:settings_schema.social-media.settings.social_instagram_link.info",
+        "default" : "https://www.instagram.com/nsrabisley"
       },
       {
         "type": "text",
@@ -219,7 +222,8 @@
         "type": "text",
         "id": "social_youtube_link",
         "label": "t:settings_schema.social-media.settings.social_youtube_link.label",
-        "info": "t:settings_schema.social-media.settings.social_youtube_link.info"
+        "info": "t:settings_schema.social-media.settings.social_youtube_link.info",
+        "default" : "https://www.youtube.com/channel/UCk8DONxlUtvqC02ZPFUxf5g"
       },
       {
         "type": "text",
@@ -256,6 +260,37 @@
         "id": "currency_code_enabled",
         "label": "t:settings_schema.currency_format.settings.currency_code_enabled.label",
         "default": true
+      }
+    ]
+  },
+  {
+    "name": "Contact Details",
+    "settings": [
+      
+      {
+        "type": "richtext",
+        "id": "opening_times",
+        "default": "<p><strong>Monday &amp; Tuesday</strong><br>Closed</p><p><strong>Wednesday to Saturday</strong><br>09:00 - 16:00</p>
+         <p><strong>Sunday</strong><br>10:00 - 16:00</p>",
+        "label" : "Opening Times"
+      },
+      {
+        "type": "text",
+        "id": "phone_number",
+        "default": "01483 485511",
+        "label" : "Phone Number"
+      },
+      {
+        "type": "text",
+        "id": "email",
+        "default": "sales@nsra.co.uk",
+        "label" : "Email Address"
+      },
+      {
+        "type": "textarea",
+        "id": "address",
+        "label": "Address",
+        "default" : "NSRA Ltd, Lord Roberts Centre, Bisley Camp, Woking, Surrey,GU24 0NP"
       }
     ]
   }
