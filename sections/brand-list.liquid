@@ -1,17 +1,15 @@
 <div class="page-width">
-	<h2>Shop by brand</h2>
-	<div class="widget">
+	<h2 class="text-center">Shop by brand</h2>
 
-	  <div class="flexslider flexslider--featured">
-	    <ul class="flexslider__slides">
+	    <ul class="list-unstyled list-inline">
 	      {% for link in linklists.featured-brands.links %}
-	        <li class="flexslider__slide">
-	          <a href="{{ link.object.url }}" class="flexslider__link"><img src="{{ link.object.image | img_url: 'small' }}" alt="{{ link.title | escape }}" class="flexslider__image"></a>
+	        <li>
+	          <a href="{{ link.object.url }}">
+	          	<img src="{{ link.object.image | img_url: 'small' }}" alt="{{ link.title | escape }}">
+          	</a>
 	        </li>
 	      {% endfor %}
 	    </ul>
-	  </div>
-	</div>
 </div>
 
 {% schema %}

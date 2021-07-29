@@ -22,20 +22,16 @@
 
 			<div>
 				<h3>Contact Us</h3>
-			      {{ settings.address }}<br />
-			      Email: <a href="mailto:{{ settings.email }}">{{ settings.email }}</a>
+			    	{{ settings.address }}<br />
+			    	Phone: <a href="tel:{{ settings.phone_number }}">{{ settings.phone_number }}</a><br />
+			    	Email: <a href="mailto:{{ settings.email }}">{{ settings.email }}</a><br />
+	       			<a href="/pages/location-map" class="button button--full-width button--secondary">View map</a>
+
 			</div>
 
 			<div>
 				 <h3>Opening Times</h3>
 	      		{{ settings.opening_times }}
-	      		<a href="/pages/location-map" class="button button--full-width button--secondary">Get Directions</a>
-			</div>
-
-			<div>
-				<h3>Find Us</h3>
-				<p><a href="/pages/location-map" class="site-footer__map"><img src="https://maps.googleapis.com/maps/api/staticmap?size=240x150&amp;zoom=10&amp;key=AIzaSyCWOAsu0ejM-zNg5Qupdz9NeL5gVBcanxU&amp;markers=color:red%7C51.307859,-0.654718" alt="map"></a></p>
-	       		<a href="/pages/location-map" class="button button--full-width button--secondary">View map</a>
 			</div>
 
 		</div>

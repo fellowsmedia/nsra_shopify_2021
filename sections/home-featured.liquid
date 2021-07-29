@@ -1,0 +1,14 @@
+<section class="background-secondary spaced-section">
+	
+
+	<div class="page-width" style="display:grid; grid-template-columns: repeat(5, 1fr); grid-gap: 30px;">
+	  {% for link in linklists.featured-collections.links %}
+	    <a href="{{ link.url }}" class="grid-item">
+			<div class="grid-item__image">
+				<img src="{{ link.object.image | img_url: 'medium' }}" alt="{{ link.title | escape }}" />
+			</div>
+			<span class="">{{ link.title | escape }}</span>
+	    </a>
+	  {% endfor %}
+	</div>
+</section>

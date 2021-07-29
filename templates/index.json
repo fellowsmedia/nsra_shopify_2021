@@ -9,20 +9,20 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products"
+        "title": "Latest products"
       }
+    },
+    "featured_homepage": {
+      "type" : "home-featured"
     },
     "by_brand": {
       "type" : "brand-list"
-    },
-    "recently_viewed" : {
-      "type" : "recently-viewed"
     }
   },
   "order": [
     "image_banner",
     "featured_products",
-    "by_brand",
-    "recently-viewed"
+    "featured_homepage",
+    "by_brand"
   ]
 }

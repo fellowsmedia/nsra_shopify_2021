@@ -270,8 +270,7 @@
       {
         "type": "richtext",
         "id": "opening_times",
-        "default": "<p><strong>Monday &amp; Tuesday</strong><br>Closed</p><p><strong>Wednesday to Saturday</strong><br>09:00 - 16:00</p>
-         <p><strong>Sunday</strong><br>10:00 - 16:00</p>",
+        "default": "<p><strong>Monday &amp; Tuesday</strong><br>Closed</p><p><strong>Wednesday to Saturday</strong><br>09:00 - 16:00</p><p><strong>Sunday</strong><br>10:00 - 16:00</p>",
         "label" : "Opening Times"
       },
       {
